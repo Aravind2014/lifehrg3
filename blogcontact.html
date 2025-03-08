@@ -1,0 +1,9 @@
+{% extends "blogbase.html" %}
+{% load static %}
+<title>{{title}} </title>
+   {% block contents %}
+      <h2 align="center">This is Blog Contact Home page</h2>
+      <p style="text-align:center;"> 
+        <img src="{% static 'images/comingsoon.jpg' %}" alt="Coming Soon" height="300" width="600"/>
+    </p>
+   {% endblock %}
